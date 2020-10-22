@@ -1,6 +1,6 @@
 package antonioleiva.com.appkotlin.main
 
-class MainPresenter(var mainView: MainView?, val findItemsInteractor: FindItemsInteractor) {
+class MainPresenter(private var mainView: MainView?, private val findItemsInteractor: FindItemsInteractor) {
 
     fun onResume() {
         mainView?.showProgress()

@@ -1,7 +1,7 @@
 package antonioleiva.com.appkotlin.login
 
-class LoginPresenter(var loginView: LoginView?, val loginInteractor: LoginInteractor) :
-    LoginInteractor.OnLoginFinishedListener {
+class LoginPresenter(private var loginView: LoginView?, private val loginInteractor: LoginInteractor) :
+        LoginInteractor.OnLoginFinishedListener {
 
     fun validateCredentials(username: String, password: String) {
         loginView?.showProgress()

@@ -10,18 +10,20 @@
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawablePadding="8dp"
+        android:autofillHints="username"
         android:drawableStart="@drawable/ic_username"
+        android:drawablePadding="8dp"
         android:gravity="center_vertical"
         android:hint="@string/user_name"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawablePadding="8dp"
+        android:autofillHints="password"
         android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="8dp"
         android:gravity="center_vertical"
         android:hint="@string/password"
         android:inputType="textPassword" />
