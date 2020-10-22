@@ -2,7 +2,7 @@ package antonioleiva.com.appkotlin.login
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import antonioleiva.com.appkotlin.R
 import antonioleiva.com.appkotlin.main.MainActivity
